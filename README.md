@@ -1,2 +1,2 @@
-# week-1_Telecom-Data
-This is a telecom data provided from 10acadamy to be cleaned and view the overview, see the user engagement, user experience and Satisfaction analysis
+# Structuring the repo accorind to the source provided from 10acadamy.
+The whole sturcture is cloned from the resource given by 10acadamy. 
