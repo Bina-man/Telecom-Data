@@ -35,7 +35,7 @@ def plot_bar(df: pd.DataFrame, x_col: str, y_col: str, title: str, xlabel: str, 
 
 
 def plot_heatmap(df: pd.DataFrame, title: str, cbar=False) -> None:
-    plt.figure(figsize=(12, 7))
+    plt.figure(figsize=(15, 12))
     sns.heatmap(df, annot=True, cmap='viridis', vmin=0,
                 vmax=1, fmt='.2f', linewidths=.7, cbar=cbar)
     plt.title(title, size=18, fontweight='bold')
