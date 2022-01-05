@@ -2,8 +2,5 @@ FROM python:3.8
 
 WORKDIR /app
 
-COPY requirements.txt ./requirements.txt
-
-RUN pip install -r requiremts.txt
-
-CMD [ "python", "./test.py"]
+COPY requirements.txt /
+RUN pip3 install -r /requirements.txt 
