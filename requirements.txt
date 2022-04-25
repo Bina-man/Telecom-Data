@@ -1,7 +1,5 @@
 lxml
 matplotlib
-numpy
-pandas
 plotly
 requests
 sklearn
